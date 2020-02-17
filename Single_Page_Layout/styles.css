@@ -117,34 +117,33 @@ hr {
     img#service1 {
         float: none;
         margin-right: 5%;
-
     }
+}
 
+.col-lg-8.mx-auto {
+    margin: 0%;
+    padding: 0%;
+}
 
-    .col-lg-8.mx-auto {
-        margin: 0%;
-        padding: 0%;
-    }
+.row {
+    margin: 0%;
+}
 
-    .row {
-        margin: 0%;
-    }
+.card {
+    /* margin: 15%; */
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
-    .card {
-        /* margin: 15%; */
-        margin-left: 20%;
-        margin-right: 20%;
-    }
+.card-deck {
+    width: 100%;
+    margin: 0%;
+}
 
-    .card-deck {
-        width: 100%;
-        margin: 0%;
-    }
-
-    .card-img-top {
-        margin: auto;
-        margin-top: 3%;
-        width: 75%;
-        border: 1px solid rgba(0, 0, 0, .125);
-        border-radius: 360px;
-    }
+.card-img-top {
+    margin: auto;
+    margin-top: 3%;
+    width: 75%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 360px;
+}
