@@ -27,6 +27,11 @@ img.service {
     border: 1px solid black;
 }
 
+img#realEst {
+    margin-right: 5%;
+    float: left;
+}
+
 h4.service {
     position: relative;
     left: 2%;
@@ -51,6 +56,7 @@ img#service1 {
 
 img#service2 {
     float: right;
+    margin-right: 2%;
 }
 
 section {
@@ -78,40 +84,67 @@ hr {
         padding-left: 0%;
     }
 
-    ul.service {
+    ul#service1 {
         padding-left: 15%;
     }
 
-    #service1 {
+    ul#service2 {
+        padding-right: 15%;
+    }
+
+    img#realEst {
+        margin-right: 5%;
+        float: none;
+        margin-bottom: 3%;
+    }
+
+    img#service1 {
+        float: none;
+        margin-bottom: 3%;
+    }
+
+    img#service2 {
         float: none;
         margin-bottom: 3%;
     }
 }
 
-.col-lg-8.mx-auto {
-    margin: 0%;
-    padding: 0%;
-}
+@media screen and (max-width: 410px) {
+    img#service2 {
+        float: none;
+    }
 
-.row {
-    margin: 0%;
-}
+    img#service1 {
+        float: none;
+        margin-right: 5%;
 
-.card {
-    /* margin: 15%; */
-    margin-left: 20%;
-    margin-right: 20%;
-}
+    }
 
-.card-deck {
-    width: 100%;
-    margin: 0%;
-}
 
-.card-img-top {
-    margin: auto;
-    margin-top: 3%;
-    width: 75%;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: 360px;
-}
+    .col-lg-8.mx-auto {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .row {
+        margin: 0%;
+    }
+
+    .card {
+        /* margin: 15%; */
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .card-deck {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .card-img-top {
+        margin: auto;
+        margin-top: 3%;
+        width: 75%;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: 360px;
+    }
