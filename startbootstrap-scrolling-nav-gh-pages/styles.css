@@ -1,0 +1,117 @@
+.bg-primary {
+    background-image: url(https://images.unsplash.com/photo-1470164971321-eb5ac2c35f2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1954&q=80);
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+#mainNav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#about {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#services {
+    border-bottom: 1px solid black;
+}
+
+#contact {
+    border-bottom: 1px solid black;
+}
+
+img.service {
+    width: 35%;
+    border: 1px solid black;
+}
+
+h4.service {
+    position: relative;
+    left: 2%;
+    padding-top: 3%;
+}
+
+p.service {
+    padding-left: 40%;
+}
+
+ul#service1 {
+    padding-left: 45%;
+}
+
+ul#service2 {
+    padding-right: 35%;
+}
+
+img#service1 {
+    float: left;
+}
+
+img#service2 {
+    float: right;
+}
+
+section {
+    padding: 10% 0%;
+}
+
+ul#aboutList {
+    padding-left: 15%;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+}
+
+@media screen and (max-width: 371px) {
+    p.service {
+        padding-left: 0%;
+    }
+
+    ul.service {
+        padding-left: 15%;
+    }
+
+    #service1 {
+        float: none;
+        margin-bottom: 3%;
+    }
+}
+
+.col-lg-8.mx-auto {
+    margin: 0%;
+    padding: 0%;
+}
+
+.row {
+    margin: 0%;
+}
+
+.card {
+    /* margin: 15%; */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card-deck {
+    width: 100%;
+    margin: 0%;
+}
+
+.card-img-top {
+    margin: auto;
+    margin-top: 3%;
+    width: 75%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 360px;
+}
