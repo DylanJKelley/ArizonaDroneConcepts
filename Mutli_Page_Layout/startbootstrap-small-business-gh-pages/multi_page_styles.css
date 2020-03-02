@@ -25,3 +25,23 @@ img.home {
     width: 90%;
     margin: auto;
 }
+
+.card-img {
+    height: 50%;
+}
+
+.card-deck {
+    margin-bottom: 10%;
+}
+
+h3#contact {
+    margin-top: 10%;
+}
+
+.contact {
+    border: 1px solid black;
+    border-radius: 160%;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
