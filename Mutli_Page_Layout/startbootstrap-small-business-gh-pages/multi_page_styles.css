@@ -34,14 +34,18 @@ img.home {
     margin-bottom: 10%;
 }
 
-h3#contact {
+h3.contact {
     margin-top: 10%;
 }
 
-.contact {
-    border: 1px solid black;
+img.contact {
+    border: 1px solid rgb(0, 0, 0, 0.125);
     border-radius: 160%;
     width: 50%;
     margin: auto;
     margin-top: 5%;
+}
+
+a.about {
+    margin-top: 2%;
 }

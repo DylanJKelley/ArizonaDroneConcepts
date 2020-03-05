@@ -5,7 +5,6 @@
 }
 
 #mainNav {
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
@@ -20,6 +19,16 @@
 
 #contact {
     border-bottom: 1px solid black;
+}
+
+#more {
+    display: none;
+}
+
+a.readMore {
+    position: relative;
+    left: 80%;
+    margin-right: 10%;
 }
 
 img.service {
@@ -117,6 +126,12 @@ hr {
     img#service1 {
         float: none;
         margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    a.readMore {
+        left: 50%;
     }
 }
 
