@@ -25,6 +25,15 @@
     display: none;
 }
 
+img#scrollTop {
+    width: 10%;
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    z-index: 99;
+
+}
+
 a.readMore {
     position: relative;
     left: 80%;
