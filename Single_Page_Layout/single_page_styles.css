@@ -25,6 +25,10 @@
     display: none;
 }
 
+html {
+    scroll-behavior: auto;
+}
+
 img#scrollTop {
     width: 10%;
     position: fixed;
@@ -83,6 +87,17 @@ section {
 
 ul#aboutList {
     padding-left: 15%;
+}
+
+img.logo {
+    width: 10%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+}
+
+a.navbar-brand {
+    padding: 0%;
+    margin: 0%;
 }
 
 p {
